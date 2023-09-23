@@ -58,7 +58,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'R4C.urls'
 
-TEMPLATES_DIR = BASE_DIR / 'templates'
+TEMPLATES_DIR = BASE_DIR + '/templates'
 
 TEMPLATES = [
     {
